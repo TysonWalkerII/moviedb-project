@@ -1,0 +1,53 @@
+.MovieObjectContainer,
+.MovieObject {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  list-style: none;
+}
+.MovieObject {
+  font-size: 24px;
+  background-color: #1d7d80;
+  margin: 12px;
+  padding: 12px;
+  border: solid #1e4d80 4px;
+  border-radius: 12px;
+  padding: 15px;
+  width: 500px;
+  height: 100%;
+}
+.MovieObject p {
+  color: cornsilk;
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  max-width: 500px;
+  font-family: "Limelight", cursive;
+  text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+}
+.MovieObject .title {
+  font-size: 36px;
+}
+.MovieObject .watchlist {
+  color: #801f1d;
+}
+
+.MovieObject img {
+  margin-top: auto;
+  width: 500px;
+}
+.MovieObject img:hover {
+  cursor: pointer;
+}
+
+.MovieObject .rating {
+  font-family: "Open Sans", sans-serif;
+}
+
+.MovieObject .movieDetails {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 500px;
+}
